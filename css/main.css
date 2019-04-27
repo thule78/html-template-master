@@ -1,0 +1,84 @@
+body {
+  margin: auto;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.site-header {
+  height: 100%;
+  overflow-y: auto;
+  left: 0;
+  padding: 0px 0 0;
+  position: fixed;
+  width: 150px;
+}
+
+.landing-bg-wrap div {
+    position: absolute;
+}
+
+.ld-leaf-1 {
+  rotate: 0deg;
+  -webkit-transform: rotate(0deg);
+  bottom: 10%;
+  left: 50%;
+}
+
+.ld-leaf-2 {
+  rotate: 0deg;
+  -webkit-transform: rotate(0deg);
+  top: 0px;
+  right: -5%;
+}
+
+.ld-leaf-3 {
+  rotate: -10deg;
+  -webkit-transform: rotate(-10deg);
+  top: -100px;
+  left: 0px;
+}
+
+.ld-leaf-4 {
+  rotate: 0deg;
+  -webkit-transform: rotate(0deg);
+  bottom: 0px;
+  left: -10%;
+}
+
+.ld-leaf-5 {
+  rotate: 0deg;
+  -webkit-transform: rotate(0deg);
+  top: 40%;
+  left: 0px;
+}
+
+.ld-leaf-6 {
+  rotate: 0deg;
+  -webkit-transform: rotate(0deg);
+  bottom: 200px;
+  right: 10%;
+}
+
+.ld-leaf-7 {
+  rotate: -30deg;
+  -webkit-transform: rotate(-30deg);
+  top: 20%;
+  left: 30%;
+}
+
+.ld-leaf-8 {
+  top: 50%;
+    left: 40%;
+}
+
