@@ -31,7 +31,7 @@ ul {
 .ld-leaf-1 {
   rotate: 0deg;
   -webkit-transform: rotate(0deg);
-  bottom: 10%;
+  bottom: 30%;
   left: 50%;
 }
 
@@ -81,4 +81,47 @@ ul {
   top: 50%;
     left: 40%;
 }
+
+@media screen and (max-width: 1280px) {
+  .title {
+  max-width: 30%;
+  top: 25vh;
+  left: 35vw;
+  text-align: center;
+}
+
+.top-title {
+  margin-bottom: 5vh;
+}
+
+.second-title {
+  color: #5a6268;
+  letter-spacing: 0.2px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+  max-width: 80%;
+  top: 20vh;
+  left: 35vw;
+  text-align: center;
+}
+
+.top-title {
+  margin-bottom: 5vh;
+}
+
+.second-title {
+  color: #5a6268;
+  letter-spacing: 0.2px;
+}
+
+.ld-leaf-8, .ld-leaf-5, .ld-leaf-4, .ld-leaf-2 {
+  display: none;
+}
+
+}
+
 
