@@ -96,14 +96,10 @@ ul {
     left: 40%;
 }
 
-.thu-tour img {
-  width: 500px;
-  height: auto;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-}
 
 
-@media screen and (max-width: 1280px) {
+
+@media screen and (min-width: 1280px) {
   .title {
   max-width: 30%;
   top: 25vh;
@@ -130,6 +126,12 @@ ul {
   width: 50%;
 }
 
+.thu-tour img {
+  width: 500px;
+  height: auto;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, .3);
+}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -151,6 +153,22 @@ ul {
 
 .ld-leaf-8, .ld-leaf-5, .ld-leaf-4, .ld-leaf-2 {
   display: none;
+}
+
+.projects {
+  max-width: 80%;
+  margin: 500px auto;
+}
+
+.thu-tour {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+.thu-tour img {
+  width: 300px;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, .3);
 }
 
 }
