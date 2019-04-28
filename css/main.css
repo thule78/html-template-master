@@ -102,6 +102,10 @@ ul {
   z-index: -2;
 }
 
+.about-leaf {
+  z-index: -2;
+}
+
 .top-title {
   margin-bottom: 5vh;
 }
@@ -128,7 +132,7 @@ ul {
 }
 
 .about {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -142,7 +146,7 @@ ul {
   position: relative;
   bottom: 0px;
   z-index: -2;
-  background: url("../img/landing-bottom-leaf-9.png");
+  background: url("../img/landing-bottom-leaf-9.png") no-repeat;
     background-position-x: 0%;
     background-position-y: 0%;
     background-size: auto;
@@ -205,6 +209,22 @@ ul {
   display: block;
   height: 200px;
 }
+
+.intro-text {
+  width: 50%;
+}
+
+.about {
+  position: relative;
+  bottom: 0px;
+  z-index: -2;
+  background: url("../img/about-leaf-11.png") no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: 60% auto;
+  background-position-x: 350px;
+  background-position-y: 0px;
+}
 }
 
 @media screen and (max-width: 900px) {
@@ -222,7 +242,7 @@ ul {
 
 .projects {
   max-width: 80%;
-  margin: 350px auto;
+  margin: 350px auto 50px auto;
 }
 
 .thu-tour, .chow-time {
@@ -246,6 +266,22 @@ ul {
 .projects-description {
   display: block;
   height: 150px;
+}
+
+.about {
+  position: relative;
+  bottom: 0px;
+  z-index: -2;
+  background: url("../img/about-leaf-11.png") no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: 30% auto;
+  background-position-x: 25vw;
+  background-position-y: 0px;
+}
+
+.intro-text {
+  padding-top: 60px;
 }
 
 }
@@ -279,7 +315,7 @@ ul {
 
 .projects {
   max-width: 80%;
-  margin: 400px auto;
+  margin: 400px auto 50px auto;
 }
 
 .thu-tour, .chow-time {
@@ -296,6 +332,22 @@ ul {
 .projects-description {
   display: block;
   height: 300px;
+}
+
+.about {
+  position: relative;
+  bottom: 0px;
+  z-index: -2;
+  background: url("../img/about-leaf-11.png") no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: 50% auto;
+  background-position-x: 33vw;
+  background-position-y: 0px;
+}
+
+.intro-text {
+  padding-top: 50px;
 }
 
 }
