@@ -37,12 +37,6 @@ ul {
   padding: 0;
 }
 
-/*.site-header {
-  left: 0;
-  padding: 0px 0 0;
-  width: 100%;
-  position: fixed;
-}*/
 
 .landing-bg-wrap div {
     position: absolute;
@@ -153,6 +147,12 @@ ul {
   background-size: cover;
   background-position-x: -30px;
   background-position-y: 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  width: 60%;
+  margin: auto;
 }
 
 @media screen and (min-width: 1280px) {
