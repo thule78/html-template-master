@@ -149,11 +149,6 @@ ul {
   background-position-y: 20px;
 }
 
-.navbar-nav {
-  display: flex;
-  width: 60%;
-  margin: auto;
-}
 
 @media screen and (min-width: 1280px) {
 .title {
