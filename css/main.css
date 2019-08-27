@@ -167,14 +167,15 @@ ul {
 .project-card {
   display: flex;
   justify-content: space-between;
+  width: 80vw;
 }
 
-.thu-tour, .chow-time {
+.thu-tour, .chow-time, .ivanhoe, .adventure {
   margin-top: 40px;
   width: 45%;
 }
 
-.thu-tour img, .chow-time img {
+.thu-tour img, .chow-time img, .ivanhoe img, .adventure img {
   width: 450px;
   box-shadow: 1px 2px 6px rgba(0, 0, 0, .3);
 }
