@@ -121,7 +121,7 @@ ul {
   color: #5a6268;
 }
 
-.thu-tour img, .chow-time img {
+.thu-tour img, .chow-time img, .ivanhoe img, .adventure img {
   margin-bottom: 40px;
 }
 
@@ -150,7 +150,7 @@ ul {
 }
 
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
 .title {
   max-width: 30%;
   top: 15vh;
@@ -241,13 +241,13 @@ ul {
   margin: 350px auto 50px auto;
 }
 
-.thu-tour, .chow-time {
+.thu-tour, .chow-time, .ivanhoe, .adventure {
   margin: auto;
   width: 90%;
   text-align: center;
 }
 
-.thu-tour img, .chow-time img {
+.thu-tour img, .chow-time img, .ivanhoe img, .adventure img {
   width: 500px;
   box-shadow: 1px 2px 6px rgba(0, 0, 0, .3);
 }
@@ -314,13 +314,13 @@ ul {
   margin: 400px auto 50px auto;
 }
 
-.thu-tour, .chow-time {
+.thu-tour, .chow-time, .ivanhoe, .adventure {
   margin: auto;
   width: 90%;
   text-align: center;
 }
 
-.thu-tour img, .chow-time img {
+.thu-tour img, .chow-time img, .ivanhoe img, .adventure img {
   width: 300px;
   box-shadow: 1px 2px 6px rgba(0, 0, 0, .3);
 }
